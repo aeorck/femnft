@@ -7,11 +7,13 @@
 @font-face {
   font-family: Outfit;
   src: url('https://fonts.google.com/specimen/Outfit');
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 }
+
 
 body {
   background-color: #0d192b;
-  font-family: Outfit;
+  font-family: 'Outfit', sans-serif;
   color: white;
   min-width: 375px;
   max-width: 1440px;
