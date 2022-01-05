@@ -1,19 +1,17 @@
-@media screen and (max-width: 375px) {
+/*@media screen and (max-width: 375px) {
   body {
-    max-width: 375px;
+    max-width: fit-content;
+    min-width: 375px;
   }
-}
-
+}*/
 @font-face {
   font-family: Outfit;
-  src: url('https://fonts.google.com/specimen/Outfit');
-  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+  src: url(/font/Outfit.ttf);
 }
-
 
 body {
   background-color: #0d192b;
-  font-family: 'Outfit', sans-serif;
+  font-family: Outfit;
   color: white;
   min-width: 375px;
   max-width: 1440px;
@@ -30,45 +28,63 @@ body {
 }
 
 .card {
-  width: 30%;
+  width: 280px;
   margin: 10% auto;
   background: #14253d;
   padding: 2%;
-  border-radius: 20px;
+  border-radius: 10px;
+  position: relative;
   font-weight: 300;
   color: #8bacda;
 }
 
 .card .pic {
-  border-radius: 20px;
+  border-radius: 10px;
   width: 100%;
   position: relative;
   top: 0;
   left: 0;
+  display: block;
 }
 
-.card .eye {
+.eye_veiw {
+  opacity: 0;
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   top: 50%;
-  left: 48%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .pico {
   position: relative;
   top: 0;
   left: 0;
+  border-radius: 10px;
 }
 
-.pico .equil {
-  color: white;
-  margin-top: 20px;
-  font-weight: 600;
+.pico:hover {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 255, 255, 0.8);
 }
 
-.about {
+.pico:hover .pic {
+  opacity: 0.3;
+}
+
+.pico:hover .eye_veiw {
+  opacity: 1;
+  width: auto;
+}
+
+.pico .eye {
+  width: 40px;
+  padding: 16px 32px;
+}
+
+.pico .about {
   font-weight: 400;
   font-size: 25px;
   margin-top: 20px;
@@ -99,6 +115,17 @@ body {
   float: right;
 }
 
+.equil {
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.equil:hover {
+  color: cyan;
+}
+
 .creator {
   margin: 0;
   padding: 0;
@@ -106,8 +133,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: centre;
-  -ms-flex-align: centre;
-  align-items: centre;
+      -ms-flex-align: centre;
+          align-items: centre;
 }
 
 .creator img {
@@ -125,5 +152,9 @@ body {
 .creator .author b {
   color: white;
   font-weight: 400;
+}
+
+.creator .author:hover b {
+  color: cyan;
 }
 /*# sourceMappingURL=projectcss.css.map */
