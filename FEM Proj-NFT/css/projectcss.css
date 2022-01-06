@@ -114,6 +114,9 @@ body {
   list-style-type: none;
   float: right;
 }
+.eth{
+  width:10px;
+}
 
 .equil {
   color: white;
