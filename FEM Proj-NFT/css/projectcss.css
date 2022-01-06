@@ -14,7 +14,7 @@ body {
   font-family: Outfit;
   color: white;
   min-width: 375px;
-  max-width: auto;
+  max-width: 1440px;
 }
 
 .attribution {
@@ -119,6 +119,7 @@ body {
   color: white;
   margin-top: 20px;
   font-weight: 600;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
