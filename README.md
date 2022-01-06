@@ -27,7 +27,7 @@ Users should be able to:
 
 > A screenshot of my solution.
 
-> ![](./FEM Proj-NFT/images/screenshot.jpg)
+> ![](FEM Proj-NFT/images/screenshot.jpg)
 
 ### Links
 
