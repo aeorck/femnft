@@ -50,24 +50,14 @@ Users should be able to:
 I have always been confused about the usage of positioning a HTML block with the use of
 
 ```html
-<span class="codesnip"> Position:absolute</span>
+Position:absolute
 ```
-
-and
-
+and 
 ```html
-<span class="codesnip"> position:relative </span>
+position:relative
 ```
-
 , but from taking my time to learn its relativity to designing a hitch-free static website through concurrent testing, I was finally able to get the hang of it.
 
-```css
-.codesnip {
-  color: papayawhip;
-  width: fit-content;
-  font-family: consolas;
-}
-```
 
 ### Continued development
 
