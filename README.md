@@ -27,7 +27,7 @@ Users should be able to:
 
 > A screenshot of my solution.
 
-> ![Screenshot](ss.jpg)
+> ![Screenshot](./images/ss.jpg)
 
 ### Links
 
